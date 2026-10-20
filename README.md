@@ -15,8 +15,8 @@
 
 ## 当前进度
 
-已实现首个 Skill：[yuan-paper-explainer](skills/yuan-paper-explainer/SKILL.md)（参考论文说明），后续通过实际论文使用继续完善。
+已实现首个 Skill：[yuan-paper-explainer](yuan-paper-explainer/SKILL.md)（参考论文说明），后续通过实际论文使用继续完善。
 
-Skill 源码统一放在 `skills/<skill-name>/` 下，每个 Skill 可独立使用。当前仓库保存源码，尚未安装到全局 Skill 目录。
+每个 Skill 的文件夹直接放在仓库根目录，即 `<skill-name>/`，可独立使用。当前仓库保存源码，尚未安装到全局 Skill 目录。
 
 使用时向 Agent 提供上述 `SKILL.md` 路径，以及论文原文与目标研究目录。Skill 将生成或更新一份精简说明；仅询问局部内容时直接回答对应部分。
