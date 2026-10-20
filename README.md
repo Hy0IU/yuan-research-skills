@@ -18,7 +18,7 @@
 已实现两个 Skill，后续通过实际研究使用继续完善：
 
 - [yuan-paper-explainer](yuan-paper-explainer/SKILL.md)：参考论文说明，支持首次生成和补充见解后的再次分析。
-- [yuan-knowledge-curator](yuan-knowledge-curator/SKILL.md)：分析论文设计、抽象并比较机制，构建与持续维护机制知识库；支持研究者在过程中讨论和纠偏。
+- [yuan-mechanism-builder](yuan-mechanism-builder/SKILL.md)：分析论文设计、抽象并比较机制，构建与持续维护机制知识库；支持研究者在过程中讨论和纠偏。
 
 每个 Skill 的文件夹直接放在仓库根目录，即 `<skill-name>/`，可独立使用。当前仓库保存源码，尚未安装到全局 Skill 目录。
 

@@ -1,5 +1,5 @@
 ---
-name: yuan-knowledge-curator
+name: yuan-mechanism-builder
 description: "分析已完成研究者补充与再次分析的论文设计，抽象、比较并构建可复用机制，持续维护机制知识卡。用于机制分析、机制库构建与增量更新，过程中支持研究者讨论和纠偏；不用于论文初读或完整新模型设计。"
 ---
 
