@@ -15,8 +15,9 @@
 
 ## 当前进度
 
-已实现三个 Skill，后续通过实际研究使用继续完善：
+已实现四个 Skill，后续通过实际研究使用继续完善：
 
+- [yuan-project-init](yuan-project-init/SKILL.md)：调用配套脚本初始化研究工作目录，保留已有文件并生成项目级运行约定。
 - [yuan-paper-explainer](yuan-paper-explainer/SKILL.md)：参考论文说明，支持首次生成和补充见解后的再次分析。
 - [yuan-mechanism-builder](yuan-mechanism-builder/SKILL.md)：分析论文设计、抽象并比较机制，构建与持续维护机制知识库；支持研究者在过程中讨论和纠偏。
 - [yuan-idea-explorer](yuan-idea-explorer/SKILL.md)：结合研究者直觉与参考方法，探索独特模块和丰富候选架构，保存 Idea 并持续讨论更新。
@@ -27,6 +28,7 @@
 
 ```text
 工作目录/
+├── AGENTS.md
 ├── research-context.md
 ├── references/
 │   └── 论文标题/
@@ -41,6 +43,8 @@
         ├── decisions.md
         └── experiments/
 ```
+
+初始化时，从本仓库根目录运行 `python3 yuan-project-init/scripts/init_project.py init "/绝对路径/研究项目"`，也可以调用初始化 Skill。加 `--dry-run` 只预览计划；已有 AGENTS.md 会保留原文并仅追加一次项目说明，背景与索引不会被覆盖。初始化只建立基础结构，具体论文、机制与 Idea 在实际研究时生成。
 
 先生成说明初稿，由研究者填写“我的理解与研究启发”，再让 Agent 重新分析并更新相关章节，尤其是第3、4、7节。同一论文复用目录与文件；仅询问局部内容时直接回答对应部分。
 
