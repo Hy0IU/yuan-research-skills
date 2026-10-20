@@ -1,0 +1,4 @@
+interface:
+  display_name: "机制知识整理"
+  short_description: "从已完成研究者补充与再次分析的论文说明积累机制，并由研究者主导方向修订"
+  default_prompt: "使用 $yuan-knowledge-curator 整理指定工作目录的机制知识；若我指出机制方向偏移，先与我讨论确定，再更新相关机制卡。"
