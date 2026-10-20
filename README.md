@@ -18,7 +18,7 @@
 已实现四个 Skill，后续通过实际研究使用继续完善：
 
 - [yuan-project-init](yuan-project-init/SKILL.md)：调用配套脚本初始化研究工作目录，保留已有文件并生成项目级运行约定。
-- [yuan-paper-explainer](yuan-paper-explainer/SKILL.md)：参考论文说明，支持首次生成和补充见解后的再次分析。
+- [yuan-paper-explainer](yuan-paper-explainer/SKILL.md)：按局部问答、初稿和补充后再分析分流，保留模型/消融分析与研究者原话；核心流程保持单文件。
 - [yuan-mechanism-builder](yuan-mechanism-builder/SKILL.md)：分析论文设计、抽象并比较机制，构建与持续维护机制知识库；支持研究者在过程中讨论和纠偏。
 - [yuan-idea-explorer](yuan-idea-explorer/SKILL.md)：结合研究者直觉与参考方法探索架构，按任务分流；实验细则按需读取，配套脚本处理 Idea 建档与旧版快照，决策和索引内容由 Agent 维护。
 
