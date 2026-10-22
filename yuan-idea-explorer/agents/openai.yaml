@@ -1,4 +1,4 @@
 interface:
-  display_name: "Idea 与架构探索"
+  display_name: "yuan-idea-explorer"
   short_description: "结合研究者直觉与参考方法探索独特模块和丰富候选架构，保存 Idea 与演化记录"
   default_prompt: "使用 $yuan-idea-explorer，在指定工作目录结合我的想法和参考论文探索有启发性的新模块与候选架构，充分展开结构设计，保存 Idea 并维护索引。"

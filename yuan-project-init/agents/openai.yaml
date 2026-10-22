@@ -1,4 +1,4 @@
 interface:
-  display_name: "研究项目初始化"
+  display_name: "yuan-project-init"
   short_description: "用脚本初始化指定研究工作目录，建立项目约定与基础结构，保留已有研究内容"
   default_prompt: "使用 $yuan-project-init 在我指定的工作目录执行 init，建立研究项目结构和项目级 AGENTS.md，保留已有文件。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "参考论文说明"
+  display_name: "yuan-paper-explainer"
   short_description: "在指定目录组织论文原文与精简说明，结合研究者补充持续更新设计和迁移认识"
   default_prompt: "使用 $yuan-paper-explainer，在指定工作目录的 references 中组织论文 PDF 与说明；首次生成时预留我的见解，补充后重新分析并更新相关章节。"

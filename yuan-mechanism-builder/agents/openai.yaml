@@ -1,4 +1,4 @@
 interface:
-  display_name: "机制分析与构建"
+  display_name: "yuan-mechanism-builder"
   short_description: "分析论文具体设计、抽象可复用思想并比较不同实现，构建与持续更新机制知识库"
-  default_prompt: "使用 $yuan-mechanism-builder 分析指定工作目录中已完成见解补充与再次分析的论文，抽象和比较机制，构建或更新机制卡；过程中结合我的意见讨论修正。"
+  default_prompt: "使用 $yuan-mechanism-builder 分析指定工作目录中的论文设计，抽象和比较机制，构建或更新机制卡；已有见解一并考虑，并评估我的调整需求后落实或讨论修正。"
